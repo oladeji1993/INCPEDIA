@@ -1,0 +1,7 @@
+{
+  "name": "pediaApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
