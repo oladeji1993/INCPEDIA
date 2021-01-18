@@ -1,0 +1,140 @@
+
+.btnn {
+    // position: absolute;
+    // top: 7%;
+    /* background: red; */
+    z-index: 999;
+    color:black;
+}
+
+.dash-head{
+    margin-top:40px;
+    padding: 0px 0px;
+    display:flex;
+    text-align: center;
+   
+
+    .name{
+        font-weight:bold;
+        font-size:14px;
+        padding-top:10px;
+        width:80%;
+        color:#164A03;
+    }
+
+
+ 
+    ion-button{
+        padding-top:3px;
+        margin-right:0px;
+        font-size:12px;
+        color:black;
+        
+    }
+
+}
+
+.ass-date{
+    display:flex;
+    // justify-content: space-between;
+    width:60%;
+    margin-left:10%;
+}
+
+.enterprenuer{
+    color:#254A42;
+    font-size:10px;
+    margin-top:1%;
+    font-weight:bold;
+    margin:0% 10%;
+    // margin-left:2%;
+    // margin
+}
+
+.due-date{
+    color:#254A42;
+    font-size:10px;
+    margin-top:1%;
+    // font-weight:bold;
+}
+
+ion-checkbox{
+    width:15px;
+    height:15px;
+    border-radius:6px;
+    
+}
+
+.fore-assg{
+    display: flex;
+    // justify-content: space-between;
+    width:60%;
+    margin-left:10%;
+}
+
+.due-date-2{
+    color:#254A42;
+    font-size:10px;
+    margin-top:1%;
+    // margin-left:16%;
+}
+.enterprenuer-2{
+    color:#254A42;
+    font-size:10px;
+    margin-top:1%;
+    font-weight:bold;
+    margin:0% 10%;
+    // margin-left:15%;
+    // margin-right:7%;
+}
+
+
+.btn-container{
+    text-align:center;
+    margin:0px 7%;
+    margin-top:20%;
+    font-size:16px;
+    display:flex;
+}
+
+.payment-btn{
+    background-color:#254A42;
+    color:white;
+    padding:18px 33px;
+    border-radius:13px;
+    display:flex;
+    width:100%;
+    padding-left:40%;
+    justify-content: space-between;
+   
+   
+}
+
+.btn-container ion-icon{
+    // margin-left:100%;
+    font-size:16px;
+    // margin-top:5px;
+    color:white;
+    // display:flex;
+     padding-left:60%;
+}
+
+.msg-container{
+    margin-top:20%;
+}
+
+.msg-box{
+    border:1px solid black;
+    margin:0px 30px;
+    height: 350px;
+    width:auto;
+}
+
+.inner-box{
+    border:1px solid black;
+    margin:10%;
+    height: 275px;
+    width:auto;
+    background-color:#fff;
+}
+

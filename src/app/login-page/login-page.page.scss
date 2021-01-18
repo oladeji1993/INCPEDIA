@@ -1,0 +1,151 @@
+.header-container{
+    text-align: center;
+    color: #254A42;
+
+}
+
+// ion-content {
+//     --overflow: hidden;
+//     overflow: hidden;
+// }
+
+.header{
+    font-weight:bold;
+    font-size:20px;
+    font-family:arial
+    
+}
+
+.sub-header{
+    font-size:16px;
+    margin-top:8px
+}
+
+.board{
+    margin-top:25%;
+    
+}
+
+.green-board{
+    background-color:#254A42;
+    margin: 0px 40px;
+    height:40%;
+    width:auto;
+    border-radius: 0px 120px 0px 0px;
+    // text-align:center;
+    box-shadow: 0px 3px 6px #254A42;
+    height:30%;
+}
+
+.sign-in{
+    font-size:19px;
+    font-family:Arial;
+    color:#fff;
+    font-weight:bold;
+    text-align:center
+}
+
+.input{
+    padding:25px;
+    padding-bottom:0px;
+    // font-size:1px;
+    // margin: 0px 15px;
+}
+ion-item{
+    padding:0px;
+    // border:1px solid #FF9115;
+    margin-bottom: 15px;
+    border-radius:15px 15px;
+    // height:55px;
+}
+
+.inner-item{
+    padding:5px;
+}
+
+ion-checkbox{
+    width:9%;
+    height: auto;
+    border-radius: 0%;
+    font-weight:lighter
+}
+
+.cond{
+    display:inline-flex;
+    font-size:12px;
+    color:white;
+    padding-left:10px;
+    margin: 0px 15px;
+}
+
+.rem-me{
+    width:60%;
+}
+
+// .signUp{
+//     ion-button{
+//         color:#C3A873;
+//         text-align:center;
+//         // margin:0px 30px;
+//     }
+// }
+
+.btn{
+    background-color:#C3A873;
+    text-align:center;
+    margin:0 30px;
+    padding:12px;
+    border-radius:15px;
+    opacity:100%;
+    box-shadow: 0px 3px 6px #00000029
+}
+
+.btn span{
+    color:#254A42;
+    font-size:16px; 
+}
+
+.icon1{
+    width:12px;
+}
+
+.logo{
+    display:flex;
+    margin-left:60%;
+    padding-top:20px;
+}
+
+.logo-icon{
+    color:white;
+    width:35px;
+    font-size:20px;
+}
+
+
+.content{
+    display:flex;
+    margin-left:65px;
+    // align-content: center;
+    // justify-items: center;
+    // align-items: center;
+}
+
+.create-alc{
+    margin-right:45px;
+    justify-items: center;
+    font-size:10px;
+    font-family: Arial;
+    margin-top:13px
+}
+
+.signup-btn{
+    background-color:#254A42;
+    color:white;
+    padding:12px 33px;
+    border-radius:5px;
+    box-shadow: 0px 3px 6px #00000029
+}
+
+.signup-btn span{
+    font-size:12px
+}

@@ -1,0 +1,134 @@
+
+<!-- <div class="dash-head">
+  <ion-button class="btnn" fill="clear" ><ion-icon name="arrow-back-outline"></ion-icon></ion-button>
+  <ion-button fill="clear"><ion-icon name="menu-outline"></ion-icon></ion-button>
+</div> -->
+<ion-content>
+  <div class="dashboard-container">
+    <div class="icon-div">
+      <div class="back-icon" (click)="goToDashboard()"><ion-icon name="arrow-back-outline"></ion-icon></div>
+      <div class="menu-icon" (click)="toggleMenu()"><ion-icon name="menu-outline"></ion-icon></div>
+    </div>
+    <div class="header-container">
+      <div class="header-img">
+        <img src="assets/WDF.png"/>
+      </div>
+      <div class="payment-header">Web Design <br/> Full stack</div>
+      <div class="circle-design"></div>
+    </div>
+    <div class="payment-info scrollable"  scrollY="true">
+      <div class="bar-container">
+        <div class="bar"></div>
+      </div>
+      <div class="container">
+        <div class="header">
+          <img src="assets/menu-icon.png"/>
+          <div class="author-details">
+            <div class="name">Boluwatife John</div>
+            <div class="author">Author, Web design</div>
+          </div>
+        </div>
+      </div>
+      <!-- introduction -->
+      <div class="course-container">
+        <div class="course-history">
+          <div  class="course-info">
+            <div class="list-no">
+              <div>1</div>
+            </div>
+            <div>
+              <div class="introduction">Introduction</div>
+              <div class="time">2hour&nbsp;35minutes</div>
+            </div>
+          </div>
+          <div class="progress-board">
+            <div class="progress">25%</div>
+            <div class="ctrl-icon"><ion-icon name="play"></ion-icon></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Design Tools -->
+      <div class="course-container">
+        <div class="course-history">
+          <div  class="course-info">
+            <div class="list-no-design">
+              <div>2</div>
+            </div>
+            <div>
+              <div class="introduction">Design&nbsp;Tools</div>
+              <div class="time">2hour&nbsp;35minutes</div>
+            </div>
+          </div>
+          <div class="progress-board">
+            <div class="progress">50%</div>
+            <div class="ctrl-icon"><ion-icon name="play"></ion-icon></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Prototyping Tools -->
+      <div class="course-container">
+        <div class="course-history">
+          <div  class="course-info">
+            <div class="list-no-pro">
+              <div>3</div>
+            </div>
+            <div>
+              <div class="introduction">Prototyping&nbsp;Tools</div>
+              <div class="time">2hour&nbsp;35minutes</div>
+            </div>
+          </div>
+          <div class="progress-board">
+            <div class="progress">0%</div>
+            <div class="ctrl-icon"><ion-icon name="play"></ion-icon></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Summary & Exercise -->
+      <div class="course-container">
+        <div class="course-history">
+          <div  class="course-info">
+            <div class="list-no-summary">
+              <div>4</div>
+            </div>
+            <div>
+              <div class="introduction">Summary&nbsp;&&nbsp;Exercise</div>
+              <div class="time">2hour&nbsp;35minutes</div>
+            </div>
+          </div>
+          <div class="progress-board">
+            <div class="progress">0%</div>
+            <div class="ctrl-icon"><ion-icon name="play"></ion-icon></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- conclusion -->
+      <div class="course-container">
+        <div class="course-history">
+          <div  class="course-info">
+            <div class="list-no">
+              <div>5</div>
+            </div>
+            <div>
+              <div class="introduction">Conclusion </div>
+              <div class="time">2hour&nbsp;35minutes</div>
+            </div>
+          </div>
+          <div class="progress-board">
+            <div class="progress">0%</div>
+            <div class="ctrl-icon"><ion-icon name="play"></ion-icon></div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="btn-container">
+        <div class="payment-btn" (click)="goToLesson()">Resume last lesson  <div><ion-icon name="arrow-forward"></ion-icon></div></div>
+      </div>
+    </div>
+  </div>
+</ion-content>
+

@@ -1,0 +1,39 @@
+<div class="dash-head">
+  <ion-button class="btnn" fill="clear" (click)="goBack()" ><ion-icon name="arrow-back-sharp"></ion-icon></ion-button>
+  <div class="name">Add card</div>
+</div>
+<ion-content>
+
+  <div class="card-details-container">
+    <div class="header">CARD NUMBER</div>
+    <div class="card-details">
+      <input type="number" class="card-numbers"/>
+      <div class="visa-container">VISA</div>
+    </div>
+  </div>
+
+  <div class="card-holder-container">
+    <div class="header">CARDHOLDER NAME</div>
+    <div class="card-details">
+      <input type="text" class="card-name">
+    </div>
+  </div>
+
+  <div class="expire-date-container">
+    <div class="card-date-header">
+      <div class="date-header">EXPIRE DATE</div>
+      <div class="cvv-header">CVV</div>
+    </div>
+    <div class="date-details-container">
+      <input type="number" class="expiry-date"/>
+      <input type="number" class="visa-container-date">
+    </div>
+  </div>
+  <div>
+    <div class="save-card"><ion-checkbox></ion-checkbox> SAVE CARD</div>
+  </div>
+
+  <div class="btn-container">
+    <div class="payment-btn" (click)="goToSuccessPage()">Continue <div><ion-icon name="arrow-forward-sharp"></ion-icon></div></div>
+  </div>
+</ion-content>

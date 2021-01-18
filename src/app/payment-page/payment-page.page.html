@@ -1,0 +1,55 @@
+
+<!-- <div class="dash-head">
+  <ion-button class="btnn" fill="clear" ><ion-icon name="arrow-back-outline"></ion-icon></ion-button>
+  <ion-button fill="clear"><ion-icon name="menu-outline"></ion-icon></ion-button>
+</div> -->
+<ion-content>
+  <div class="dashboard-container">
+    <div class="icon-div">
+      <div class="back-icon" (click)="goToDashboard()"><ion-icon name="arrow-back-outline"></ion-icon></div>
+      <div class="menu-icon" (click)="toggleMenu()"><ion-icon name="menu-outline"></ion-icon></div>
+    </div>
+    <div class="header-container">
+      <div class="payment-header">Make <br/> Payment</div>
+      <div class="circle-design"></div>
+    </div>
+    <div class="payment-info scrollable"  scrollY="true">
+      <div class="bar-container">
+        <div class="bar"></div>
+      </div>
+  
+      <div class="price-display">
+        <div>
+          <div class="course-name">Web design</div>
+          <div class="course-type">Full course</div>
+        </div>
+        <div class="course-price">#100.00</div>
+      </div>
+  
+      <div class="price-display-2">
+        <div>
+          <div class="add-card">Add card</div>
+        </div>
+        <div class="add-icon"><ion-icon name="add-outline"></ion-icon></div>
+      </div>
+  
+      <div class="card-type">
+        <div class="header">Use existing cards</div>
+        <div class="card-display-container">
+           <div class="card-display-content-2">
+             <div class="card-image"> <img src="assets/Visa Icon.svg"></div>
+             <div class="card-details">Visa Card *079</div>
+           </div>
+  
+          <div class="course-price"><ion-icon name="chevron-down-sharp"></ion-icon></div>
+        </div>
+        <div class="terms-conditions">Terms and conditions</div>
+      </div>
+      
+
+      <div class="btn-container">
+        <div class="payment-btn" (click)="goToAddCard()">Continue with payment <div><ion-icon name="arrow-forward-sharp"></ion-icon></div></div>
+      </div>
+    </div>
+  </div>
+</ion-content>

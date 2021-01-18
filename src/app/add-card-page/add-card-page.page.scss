@@ -1,0 +1,191 @@
+
+.btnn {
+    // position: absolute;
+    // top: 7%;
+    /* background: red; */
+    z-index: 999;
+    color:black;
+}
+
+.dash-head{
+    margin-top:40px;
+    padding: 0px 0px;
+    display:flex;
+    text-align: center;
+   
+
+    .name{
+        font-weight:bold;
+        font-size:24px;
+        padding-top:10px;
+        width:80%;
+        color:#164A03;
+    }
+
+
+ 
+    ion-button{
+        padding-top:3px;
+        margin-right:0px;
+        font-size:12px;
+        color:black;
+        
+    }
+
+}
+
+.header{
+    font-size:11px;
+    font-weight:bold;
+    color:#254A42;
+    padding:10px;
+    padding-left:0px
+}
+
+.card-details-container{
+    margin:0px 8%;
+    margin-top:17%;
+}
+
+.card-holder-container{
+    margin:0px 8%;
+    margin-top:4%;
+}
+
+.card-details{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.card-numbers{
+    border:1px solid #254A42;
+    padding:5% 8%;
+    border-radius:4px;
+    font-size:16px;
+    color:#254A42;
+    width:65%;
+}
+
+.card-date-header{
+    display:flex;
+    justify-content: space-between;
+    width:50%
+
+}
+
+.card-name{
+    border:1px solid #254A42;
+    padding:5% 8%;
+    width:100%;
+    border-radius:4px;
+    font-size:16px;
+    color:#254A42;
+}
+
+.visa-container{
+    border:1px solid #254A42;
+    padding:5% 8%;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:4px;
+    font-style:italic;
+}
+
+.date-header{
+    font-size:11px;
+    font-weight:bold;
+    color:#254A42;
+    padding:10px;
+    padding-left:0px;
+    // margin-right:10%;
+}
+
+.cvv-header{
+    font-size:11px;
+    font-weight:bold;
+    color:#254A42;
+    padding:10px;
+    padding-left:0px;
+    // margin-left:23%
+}
+
+.expiry-date{
+    border:1px solid #254A42;
+    padding:5% 8%;
+    border-radius:4px;
+    font-size:16px;
+    color:#254A42;
+    width:35%;
+    margin-right:4%;
+}
+
+.visa-container-date{
+    border:1px solid #254A42;
+    width:20%;
+    border-radius:4px;
+    padding-left:15px;
+}
+
+.date-details{
+    border:1px solid #254A42;
+    width:20%;
+    border-radius:4px;
+}
+
+.date-details-container{
+    display:flex;
+    // justify-content: space-between;
+
+}
+
+.expire-date-container{
+    margin:0px 8%;
+    margin-top:4%;
+}
+
+.save-card{
+    font-weight:bold;
+    font-size:13px;
+    color:#254A42;
+    margin:15%;
+    margin-left:7%;
+}
+
+.save-card ion-checkbox{
+    // border:1px solid #254A42;
+    border-radius:4px;
+    width:15px;
+    height:auto;
+    padding-top:7px;
+}
+
+.btn-container{
+    text-align:center;
+    margin:0px 7%;
+    margin-top:60%;
+    font-size:16px;
+    display:flex;
+}
+
+.payment-btn{
+    background-color:#254A42;
+    color:white;
+    padding:18px 33px;
+    border-radius:13px;
+    display:flex;
+    width:100%;
+    padding-left:40%;
+    justify-content: space-between;
+   
+   
+}
+
+.btn-container ion-icon{
+    // margin-left:100%;
+    font-size:16px;
+    // margin-top:5px;
+    color:white;
+    // display:flex;
+     padding-left:60%;
+}

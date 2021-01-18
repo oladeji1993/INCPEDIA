@@ -1,3 +1,76 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+
+  <ion-menu class="ion-menu" contentId="menu-content" menuId="menu-content" side="start" type="overlay">
+    <!-- <ion-header>
+      <ion-toolbar>
+        <ion-title>welcome menu</ion-title>
+      </ion-toolbar>
+    </ion-header> -->
+    <ion-content class="page-background">
+      <div class="content">
+        <div class="container">
+          <div class="header">
+            <img src="assets/menu-icon.png"/>
+          </div>
+        </div>
+        <div class="all-menu" (click)="onMenuClick()">
+          <div class="notifications">
+            <div class="item1">Isiah Femi Chuks</div>
+            <div class="edit-icon">
+              <ion-icon name="create-outline"></ion-icon>
+            </div>
+          </div>
+  
+          <div class="notifications">
+            <div class="item1">Find a course</div>
+            <div class="edit-icon2"><ion-icon name="search-outline"></ion-icon></div>
+          </div>
+  
+          <div class="notifications">
+            <div class="item1">My Location</div>
+          </div>
+  
+          <div class="notifications" (click)="goToCourse()">
+            <div class="item1">My courses</div>
+          </div>
+  
+          <div class="notifications">
+            <div class="item1">Library</div>
+          </div>
+  
+          <div class="notifications">
+            <div class="item1">Classroom</div>
+          </div>
+  
+          <div class="notifications" (click)="goToAssignment()">
+            <div class="item1">Assignment</div>
+          </div>
+  
+          
+          <div class="notifications">
+            <div class="item1">Discussion</div>
+          </div>
+  
+          <div class="notifications">
+            <div class="item1">Test</div>
+            <div class="available">available</div>
+          </div>
+          
+  
+          
+          <div class="notifications">
+            <div class="item1">Settings</div>
+          </div>
+  
+          <div class="notifications">
+            <div class="item1">Support</div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-container">
+        <div class="payment-btn">Log out</div>
+      </div>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="menu-content"></ion-router-outlet>
 </ion-app>

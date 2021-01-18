@@ -1,0 +1,50 @@
+<ion-header>
+  <div class="header-container mt-30">
+    <div class="header">THE INCPEDIA</div>
+    <div class="sub-header">The smartest way to learn</div>
+  </div>
+</ion-header>
+<ion-content>
+  <!-- <div class="header-container mt-30">
+    <div class="header">THE INCPEDIA</div>
+    <div class="sub-header">The smartest way to learn</div>
+  </div> -->
+
+
+  <!-- login board -->
+
+  <div class="board">
+    <div class="green-board">
+      <div>
+        <div class="sign-in pt-40">Sign in</div>
+        <div class="input mt-30">
+          <ion-item lines="none">
+            <ion-input type="text" placeholder="Email"></ion-input>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-icon class="icon1" name="lock-closed-outline"></ion-icon>&nbsp;
+            <ion-input type="password" placeholder="Password">  
+            </ion-input>
+          </ion-item>
+        </div>
+      </div>
+      <div class="cond">
+        <div class="rem-me"><ion-checkbox></ion-checkbox> Remember me</div>
+        <div>Forgot Password?</div>
+      </div>
+      <div class="btn mt-40" (click)="goToDashboard()"><span>Sign in</span></div>
+
+      <div class="logo">
+        <div><ion-icon class="logo-icon" name="logo-google"></ion-icon></div>
+        <div><ion-icon class="logo-icon" name="logo-linkedin"></ion-icon></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-content mt-30">
+    <div class="content">
+      <div class="create-alc">No account yet?</div>
+      <div class="signup-btn" (click)="goToSignUp()"><span>Sign up</span></div>
+    </div>
+  </div>
+</ion-content>

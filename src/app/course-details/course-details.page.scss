@@ -1,0 +1,322 @@
+.dash-head{
+    // padding:40px 0px;
+    display:flex;
+    // padding-bottom:40px;
+    // height:8%;
+    // padding:0px 10%;
+    text-align: center;
+    justify-content: space-between;
+    background-color:#254A42;
+   
+
+    .name{
+        font-weight:bold;
+        font-size:17px;
+        padding-top:15px;
+        width:80%;
+        color:#FF9115;
+    }
+
+
+ 
+    ion-button{
+        // margin-bottom:10%;
+        margin-right:0px;
+        font-size:12px;
+        color:#fff  ;
+        
+    }
+
+}
+
+.scrollable {
+    overflow: auto;
+    padding: 20px 20px 130px 20px;
+    height: 100%;
+}
+
+.circle-design{
+    // position:relative;
+    // top:40%;
+    background-color:#164A03;
+    border-radius:100% 100% 0% 0%;
+    height:100%;
+    width:40%;
+    margin-left: 40%;
+    z-index:2;
+    // padding-top:30%;
+    // padding-left:10%;
+    // left:10%;
+    // padding-left:10%;
+   
+}
+
+// ion-content{
+//     background-color:#254A42;
+// }
+// .body{
+//     background-color:#254A42;
+// }
+
+.dashboard-container{
+    position:relative;
+    background-color:#254A42;
+    // border-radius: 0px 0px 35% 35%;
+    height:60%;
+}
+
+.circle-design{
+    // position:relative;
+    // top:40%;
+    background-color:#369B11;
+    border-radius:100% 100% 0% 0%;
+    height:100%;
+    width:40%;
+    margin-left: 40%;
+    z-index:2;
+    // padding-top:30%;
+    // padding-left:10%;
+    // left:10%;
+    // padding-left:10%;
+   
+}
+
+ion-content {
+    --overflow: hidden;
+    overflow: hidden;
+}
+
+.header-container{
+    height:28%;
+}
+
+.header-img{
+    text-align:center;
+    height:20px;
+}
+
+.payment-header{
+    position:relative;
+    top:20%;
+    // left:20%;
+    font-size:34px;
+    font-family:Helvetica, sans-serif;
+    color:#fff;
+    font-weight:bold;
+    text-align:center;
+    // margin-top:20%;
+    // margin-left:33%;
+}
+
+.payment-info{
+    // position: relative;
+    // top:0%;
+    margin-top:10px;
+    height:120%;
+    background-color:#fff;
+    // z-index: -1;
+    border-radius:64px 64px 0px 0px;
+}
+
+.icon-div{
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    height: 6rem;
+    padding: 0px 30px;
+    background-color:#254A42;
+    padding-bottom: 20px;
+    padding-top:10%;
+    
+}
+
+.back-icon{
+    // background-color:#67837d;
+    padding:10px;
+    padding-bottom:0px;
+    font-size:20px;
+    border-radius:11px
+}
+
+.menu-icon{
+    // background-color:#67837d;
+    padding:10px;
+    font-size:20px;
+    border-radius:11px;
+    padding-bottom:0px;
+}
+
+.bar{
+    width:78px;
+    height:6px;
+    background-color:#EEEEEE;
+    border-radius:257px;
+    margin: 0px 40%;
+   
+}
+
+.bar-container{
+    padding-top:15px;
+}
+
+
+.header{
+    display:flex;
+    text-align:center;
+    margin-top:5%;
+    margin-left:13%;
+}
+
+.header img{
+    border-radius:50px;
+    border: 3px solid #C3A873;
+    width:20%;
+    height:auto;
+}
+
+.name{
+    font-size:18px;
+    font-weight:bold;
+    color:#254A42
+}
+
+.author{
+    font-size:12px;
+    color:#C3A873;
+    font-weight:lighter;
+    padding-top:5px;
+}
+.author-details{
+    margin-top:4%;
+    margin-left:5%;
+}
+
+
+.course-history{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.course-container{
+    padding-top:10%;
+    margin:0px 10px
+}
+
+.introduction{
+    width:100%;
+    font-size:18px;
+    color:#164A03;
+    font-weight:bold;
+}
+
+.list-no-summary{
+    margin-right:15%;
+    font-size:12px;
+    background-color:#8CF1B1;
+    padding:5px 9px;
+    height:80%;
+    border-radius:7px;
+}
+
+.list-no-pro{
+    margin-right:15%;
+    font-size:12px;
+    background-color:#aed1ec;
+    padding:5px 9px;
+    height:80%;
+    border-radius:7px;
+}
+
+.list-no-design{
+    background-color:#8CF1B1;
+    margin-right:15%;
+    font-size:12px;
+    padding:5px 9px;
+    height:80%;
+    border-radius:7px;
+}
+
+.time{
+    width:100%;
+    font-size:12px;
+    color:#F18C8E;
+}
+
+.course-details{
+    // margin-left:10%;
+    width:100%;
+}
+
+.list-no{
+    margin-right:25%;
+    font-size:14px;
+    background-color:#ffd5d6;
+    padding:5px 9px;
+    height:80%;
+    border-radius:7px;
+}
+
+.progress{
+    padding-top:17%;
+    padding-right:5px;
+    font-size:11px;
+    font-weight:bold;
+    color:#164A03;
+}
+.course-info{
+    display:flex;
+}
+
+.ctrl-icon ion-icon{
+    background-color:#FEF3F3;
+    padding:10px;
+    border-radius:50%;
+    color:#F18C8E;
+    font-size:10px;
+    border: 1px solid #F18C8E;
+    
+}
+
+// .course-covered{
+//     display:flex;
+    
+//     margin-left:10%;
+   
+// }
+
+.progress-board{
+    display:flex;
+
+}
+.btn-container{
+    text-align:center;
+    margin:0px 7%;
+    margin-top:11%;
+    font-size:16px;
+    display:flex;
+    z-index: -1;
+}
+
+.payment-btn{
+    background-color:#254A42;
+    color:white;
+    padding:15px 33px;
+    border-radius:13px;
+    display:flex;
+    width:100%;
+    padding-left:20%;
+    justify-content: space-between;
+   
+   
+}
+
+.btn-container ion-icon{
+    // margin-left:100%;
+    font-size:20px;
+    // margin-top:5px;
+    color:white;
+    // display:flex;
+    font-weight:bold;
+    padding-left:50%;
+}

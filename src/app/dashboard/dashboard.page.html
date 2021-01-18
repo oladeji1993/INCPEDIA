@@ -1,0 +1,88 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <div slot="end" class="menu-icon"><ion-icon name="menu-outline"></ion-icon></div>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content>
+  <div class="dashboard-container">
+    <div class="menu-icon" (click)="toggleMenu()"  ><ion-icon name="menu-outline"></ion-icon></div>
+    <div class="content-container">
+      <img src="assets/header-image.svg"> 
+      <div class="msg-cont">
+        <div class="welcome">Welcome back</div>
+        <div class="ot-name">
+          <div class="name-2">Isah !</div>
+          <div class="profile-btn">view profile</div>
+        </div>
+      </div>
+      <div class="search-div">
+        <ion-item lines="none" class="search-bar">
+          <ion-icon name="search-outline"></ion-icon>&nbsp;&nbsp;&nbsp;
+          <ion-input type="text" placeholder="Adobe"></ion-input>
+        </ion-item>
+      </div>
+    </div>
+
+    <div class="view-course-container">
+      <div class="view-course">
+        <div class="l-skill">Start learning <br/> new skills</div>
+        <div class="profile-container">
+          <div class="profile-view">view course&nbsp;&nbsp;<ion-icon name="arrow-forward-outline"></ion-icon></div>
+        </div>
+      </div>
+
+      <div class="scrollable" scrollY="true">
+        <div class="pop">
+          popular
+        </div>
+        <div>
+          <div class="web-container"    (click)="goToPayment()">
+            <img src="assets/web.png"/>
+            <div class="web-content">
+              <div class="w-design">web design</div>
+              <div class="hours">120 hours</div>
+            </div>
+  
+            <div class="price-container">
+              <div class="add-icon"><ion-icon name="add-outline"></ion-icon></div>
+              <div class="old-price"><del># 5000.00</del></div>
+              <div class="new-price"># 100.00</div>
+            </div>
+          </div>
+          <br/>
+          <!-- Enterpreneurship -->
+          <div class="web-container-ets">
+            <img src="assets/ets.png"/>
+            <div class="web-content">
+              <div class="w-design">Enterpreneurship</div>
+              <div class="hours">120 hours</div>
+            </div>
+  
+            <div class="price-container-ets">
+              <div class="add-icon"><ion-icon name="add-outline"></ion-icon></div>
+              <div class="old-price"><del># 5000.00</del></div>
+              <div class="new-price"># 100.00</div>
+            </div>
+          </div>
+          <br/>
+          <!-- Mathematics -->
+          <div class="web-container-math">
+            <img src="assets/math.png"/>
+            <div class="web-content">
+              <div class="w-design">Mathematics</div>
+              <div class="hours">120 hours</div>
+            </div>
+  
+            <div class="price-container">
+              <div class="add-icon"><ion-icon name="add-outline"></ion-icon></div>
+              <div class="old-price"><del># 5000.00</del></div>
+              <div class="new-price"># 100.00</div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+</ion-content>
