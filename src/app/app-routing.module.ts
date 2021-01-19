@@ -47,6 +47,10 @@ const routes: Routes = [
     path: 'assignment-page',
     loadChildren: () => import('./assignment-page/assignment-page.module').then( m => m.AssignmentPagePageModule)
   },
+  {
+    path: 'submit-page',
+    loadChildren: () => import('./submit-page/submit-page.module').then( m => m.SubmitPagePageModule)
+  },
 
 ];
 

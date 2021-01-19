@@ -37,7 +37,7 @@
 .ass-date{
     display:flex;
     // justify-content: space-between;
-    width:60%;
+    width:65%;
     margin-left:10%;
 }
 
@@ -83,7 +83,8 @@ ion-checkbox{
     font-size:10px;
     margin-top:1%;
     font-weight:bold;
-    margin:0% 10%;
+    margin-left:10%;
+    margin-right:19%;
     // margin-left:15%;
     // margin-right:7%;
 }
@@ -92,7 +93,7 @@ ion-checkbox{
 .btn-container{
     text-align:center;
     margin:0px 7%;
-    margin-top:20%;
+    margin-top:30%;
     font-size:16px;
     display:flex;
 }
@@ -104,20 +105,14 @@ ion-checkbox{
     border-radius:13px;
     display:flex;
     width:100%;
+    text-align:center;
     padding-left:40%;
     justify-content: space-between;
    
    
 }
 
-.btn-container ion-icon{
-    // margin-left:100%;
-    font-size:16px;
-    // margin-top:5px;
-    color:white;
-    // display:flex;
-     padding-left:60%;
-}
+
 
 .msg-container{
     margin-top:20%;
@@ -126,15 +121,69 @@ ion-checkbox{
 .msg-box{
     border:1px solid black;
     margin:0px 30px;
-    height: 350px;
-    width:auto;
+    background-color:#254A4212;
+    // height: 350px;
+    // width:auto;
 }
 
 .inner-box{
     border:1px solid black;
     margin:10%;
-    height: 275px;
+    margin-bottom: 0px;
+    height: 280px;
     width:auto;
     background-color:#fff;
+    border-radius:20px;
+}
+.inner-box textarea{
+    padding:10px;
+    width:90%;
+    height:100%;
+    border:none;
 }
 
+.textarea-container{
+    margin:5%;
+    width:100%;
+    height:90%;
+}
+.btn-add-container{
+    display:flex;
+    justify-content: space-evenly;
+    // padding:10%
+    
+}
+
+.attach-btn{
+    margin-top:13px;
+    color:#254A42;
+    font-weight:bold;
+    font-family: arial;
+}
+
+.attach-btn ion-icon{
+    color:#254A42;
+    
+}
+
+.submit{
+    margin-top:13px;
+    color:#254A42;
+    font-weight:bold;
+    font-family: arial;
+}
+
+.straight-line{
+    margin-top:15%;
+}
+
+hr{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.border{
+    border-right:1px solid black;
+    height:55px;
+    width:auto;
+}

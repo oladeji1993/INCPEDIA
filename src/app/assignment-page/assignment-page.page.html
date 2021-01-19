@@ -20,12 +20,23 @@
   <div class="msg-container">
     <div class="msg-box">
       <div class="inner-box">
+        <div class="textarea-container">
+          <textarea placeholder="write here..."></textarea>
+        </div>
         
+      </div>
+      <div class="straight-line">
+        <hr size="2" width="100%" color="black">  
+      </div>
+      <div class="btn-add-container">
+        <div class="attach-btn"><ion-icon name="attach-outline"></ion-icon> Add file</div>
+        <div class="border"></div>
+        <div (click)="submit()"  class="submit">Submit</div>
       </div>
     </div>
   </div>
 
   <div class="btn-container">
-    <div class="payment-btn">Continue <div><ion-icon name="arrow-forward-sharp"></ion-icon></div></div>
+    <div class="payment-btn">Dashboard</div>
   </div>
 </ion-content>

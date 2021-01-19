@@ -22,5 +22,9 @@ export class AssignmentPagePage implements OnInit {
     this.router.navigate(["add-card-page"]);
   }
 
+  submit(){
+    this.router.navigate(["submit-page"]);
+  }
+
 
 }
